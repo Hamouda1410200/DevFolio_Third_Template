@@ -1,0 +1,415 @@
+body
+{
+    background-color: #f5f5f5;
+}
+h2
+{
+    font-size: 3rem; 
+    font-weight: bold;
+}
+h3
+{
+    color:#1e1e1e;
+    font-size: 1.8rem;
+    position: relative;
+}
+h3::after
+{
+    content: "";
+    background-color: #0078ff;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 4px;
+    
+    
+}
+nav
+{
+    background-color: rgba(0,0, 0, 0.7);
+}
+nav li 
+{
+    padding: 5px;
+}
+nav a
+{
+    color: white !important; 
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header .layer
+{
+    background-color: rgba(0,0, 0, 0.5);
+}
+h1
+{
+    font-size: 4.5rem;
+    color: white;
+    
+}
+ h1::after
+{
+    content: "|";
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-family: 'segeo ui light';
+    font-size: 3rem; 
+    animation: typing 8s 1s  infinite alternate ;
+}
+@keyframes typing
+{   0%{content: "  |";}
+    1%{content: "  |";}
+    2%{content: "F  |";}
+    3%{content: "Fr |";}
+    4%{content: "Fro |";}
+    5%{content: "Fron |";}
+    6%{content: "Front |";}
+    7%{content: "Fronte |";}
+    8%{content: "Fronten |";}
+    9%{content: "Frontend  |";}
+    10%{content: "Frontend D |";}
+    11%{content: "Frontend De |";}
+    12%{content: "Frontend Dev |";}
+    13%{content: "Frontend Devo |";}
+    14%{content: "Frontend Devol |";}
+    15%{content: "Frontend Devolo |";}
+    16%{content: "Frontend Devolop |";}
+    17%{content: "Frontend Devolope |";}
+    18%{content: "Frontend Devoloper |";}
+    19%{content: "Frontend Devolope |";}
+    20%{content: "Frontend Devolop |";}
+    21%{content: "Frontend Devolo|";}
+    22%{content: "Frontend Devol |";}
+    23%{content: "Frontend Devo |";}
+    24%{content: "Frontend Dev |";}
+    25%{content: "Frontend De |";}
+    26%{content: "Frontend D |";}
+    27%{content: "Frontend  |";}
+    28%{content: "Fronten  |";}
+    29%{content: "Fronte |";}
+    30%{content: "Front  |";}
+    31%{content: "Fron  |";}
+    32%{content: "Fro  |";}
+    33%{content: "Fr  |";}
+    34%{content: "F  |";}
+    35%{content: "  |";}
+    36%{content: "C  |";}
+    37%{content: "CE  |";}
+    38%{content: "CEO  |";}
+    39%{content: "CEO D |";}
+    40%{content: "CEO De |";}
+    41%{content: "CEO Dev |";}
+    42%{content: "CEO DevF |";}
+    43%{content: "CEO DevFo |";}
+    44%{content: "CEO DevFol |";}
+    45%{content: "CEO DevFoli |";}
+    46%{content: "CEO DevFolio |";}
+    47%{content: "CEO DevFoli |";}
+    48%{content: "CEO DevFol |";}
+    49%{content: "CEO DevFo |";}
+    50%{content: "CEO DevF |";}
+    51%{content: "CEO Dev |";}
+    52%{content: "CEO De |";}
+    53%{content: "CEO D |";}
+    54%{content: "CEO  |";}
+    55%{content: "CE  |";}
+    56%{content: "C  |";}
+    57%{content: "  |";}
+    58%{content: "G |";}
+    59%{content: "Gr |";}
+    60%{content: "Gra  |";}
+    61%{content: "Grap  |";}
+    62%{content: "Graph  |";}
+    63%{content: "Graphi  |";}
+    64%{content: "Graphic  |";}
+    65%{content: "Graphic D  |";}
+    66%{content: "Graphic De  |";}
+    67%{content: "Graphic Des  |";}
+    68%{content: "Graphic Desi  |";}
+    69%{content: "Graphic Desig  |";}
+    70%{content: "Graphic Design  |";}
+    71%{content: "Graphic Designe  |";}
+    72%{content: "Graphic Designer  |";}
+    73%{content: "Graphic Designe  |";}
+    74%{content: "Graphic Design  |";}
+    75%{content: "Graphic Desig  |";}
+    76%{content: "Graphic Desi  |";}
+    77%{content: "Graphic Des  |";}
+    78%{content: "Graphic De  |";}
+    79%{content: "Graphic D  |";}
+    80%{content: "Graphic  |";}
+    81%{content: "Graphi  |";}
+    82%{content: "Graph  |";}
+    83%{content: "Grap  |";}
+    84%{content: "Gra  |";}
+    85%{content: "Gr |";}
+    86%{content: "G |";}
+    87%{content: "  |";}
+    100%{content: "  |";}
+    
+}
+.about-section li 
+{
+    padding: 8px;
+}
+.about-section .pr-bar
+{
+    margin: 15px;
+}
+.about-section .progress
+{
+    height: 11px;
+    border-radius: 0px;
+}
+.about-section .container
+{
+    box-shadow: 0 1px 1px  0 rgb(0 0 0 / 10%),0 2px 5px 0 rgb(0 0 0 / 20%) ;
+    background-color: #fff;  
+}
+
+.about-section figure img 
+{
+    border-radius: 4px;
+}
+
+.about-section figcaption span
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.head::after
+{
+    content: "";
+    background-color: #0078ff;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: -18px;
+    left: 48%;
+}
+.services-section .icon 
+{
+    width: 130px;
+    height: 130px;
+    border: solid 10px #0078ff;
+    margin: auto;
+    border-radius: 50%;
+}
+.services-section .card:hover .icon 
+{
+  
+    border: solid 10px lightskyblue;
+    background-color: #0078ff;
+    
+    
+}
+.services-section .card:hover i 
+{
+    color: white;
+}
+.services-section .icon i 
+{
+    font-size: 3.5rem;
+    color: #1e1e1e;
+    
+}
+.services-section h3
+{
+    font-size: 1.4rem;
+    color: #1e1e1e;
+    font-weight: 500;
+}
+.services-section card 
+{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.data-section
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    
+}
+.layer 
+{
+    background-color: rgba(0, 120, 255, 0.7);
+    
+}
+.data-section h3
+{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.data-section p 
+{
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.data-section .layer .data-icon
+{
+    width: 90px;
+    height: 90px;
+    border: solid 10px #fff;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+.data-section .layer .data-icon i 
+{
+    color: #fff;
+    font-size: 2rem;
+}
+.data-section .data-cards
+{
+    
+    z-index: 5; 
+}
+.data-section .data-cards .data-card
+{
+    z-index: 5;
+}
+.work-section .card-text span 
+{
+    color: #0078ff;
+}
+.work-section .card-text  
+{
+    font-size: 0.9rem;
+}
+.work-section .icon 
+{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: #0078ff solid 1px ;
+}
+.work-section .icon i 
+{
+    color: #0078ff ;
+}
+.work-section h5 
+{
+    font-size: 1.2rem;
+}
+
+.work-section .work-cards .card .image
+{
+    overflow: hidden;
+}
+.work-section .work-cards .card img
+{
+    transition: transform 1s;
+}
+.work-section .work-cards .card
+{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.work-section .work-cards .card:hover img 
+{
+    transform: scale(1.3);
+}
+.carousel-section 
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+
+.carousel-section .layer .carousel-item 
+{
+    color: white;
+}
+.carousel-section .layer .carousel-item .icon
+{
+    margin: auto;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+.carousel-section .layer .carousel-item .icon i 
+{
+    color: #0078ff;
+    font-size: 1.9rem
+}
+
+.blog-section .blog-card
+{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.blog-section .box 
+{
+    height:25px;
+    width: 62px;
+    bottom: -5%;
+    left: 40%;
+    color: white;
+    font-family: 'segoe ui light';
+}
+.contact-section
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+.contact-section .layer 
+{
+    padding: 120px;
+    padding-bottom: 50px;
+}
+.contact-section .contact 
+{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.contact-section .form-group
+{
+    padding-bottom: 9px;
+}
+.contact-section .right .details-icon
+{
+    width: 20px;
+    height: 20px;
+    
+}
+.contact-section .right .details-icon i 
+{
+    color: #0078ff;
+}
+.contact-section .right .icons-panel i 
+{
+    font-size: 1.3rem;
+}
+.contact-section .right .icons-panel .icon 
+{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: #0078ff solid 3px;
+}
+.contact-section .right .icons-panel .icon:hover
+{
+    background-color: #0078ff;
+    border: solid 3px lightskyblue;
+}
+.contact-section .right .icons-panel .icon:hover i 
+{
+    color: white;
+}
+footer h6 
+{
+    color: white;
+}

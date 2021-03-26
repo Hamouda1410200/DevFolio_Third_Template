@@ -59,15 +59,19 @@ h1
     color: white;
     
 }
- h1::after
+@media screen and (min-width:0px) and (max-width:768px)
 {
-    content: "|";
-    position: absolute;
-    top: 100px;
-    left: 200px;
-    font-family: 'segeo ui light';
-    font-size: 3rem; 
-    animation: typing 8s 1s  infinite alternate ;
+    header h1 
+    {
+        font-size: 3.5rem;
+        max-width: 200px;
+    }
+}
+header h2::after
+{
+    content: "";
+    animation: typing 10s infinite alternate;
+
 }
 @keyframes typing
 {   0%{content: "  |";}
@@ -370,6 +374,13 @@ h1
 {
     padding: 120px;
     padding-bottom: 50px;
+}
+@media screen and (min-width:0px) and (max-width:768px)
+{
+    .contact-section .layer 
+    {
+        padding: 10px; 
+    }
 }
 .contact-section .contact 
 {

@@ -59,7 +59,7 @@ h1
     color: white;
     
 }
-@media screen and (min-width:0px) and (max-width:768px)
+@media screen and (min-width:0px) and (max-width:576px)
 {
     header h1 
     {
@@ -68,7 +68,7 @@ h1
     }
     header h2::after
     {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 }
 header h2::after
